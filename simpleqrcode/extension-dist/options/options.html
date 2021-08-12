@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="options.css">
+    <title>Options - Simple QR Code</title>
+</head>
+
+<body>
+    <h1>About</h1>
+    <h2>WIP</h2>
+    <h4>Got AddOn icon from Icons8.com</h4>
+    <h4>The logo middle of the QrCode is the Firefox logo</h4>
+    <h4>QrCodeGenerator: <a href="https://github.com/ushelp/EasyQRCodeJS">https://github.com/ushelp/EasyQRCodeJS</a>
+    </h4>
+    <h4>Http client: <a href="https://github.com/axios/axios">https://github.com/axios/axios</a>
+    </h4>
+    <br>
+    <h4>Spinner: <a href="https://loading.io/css/">https://loading.io/css/</a>
+    </h4>
+    <br>
+    <h1>Options</h1>
+    <h4>The options should be auto-saved</h4>
+    <form>
+        <input type="checkbox" name="urlshortener" id="urlshortener">
+        <label for="urlshortener">Use a url shortener (tinyurl.com) for long urls</label>
+        <br>
+        <input type="checkbox" id="customlogo">
+        <label for="customlogo">Custom Logo in Qr Code</label>
+        <br>
+        <input type="checkbox" id="websiteicon">
+        <label for="websiteicon">Use website icon if possible</label>
+        <br>
+        <label for="imageurl">The url of the image (leave blank for default)</label>
+        <br>
+        <input type="text" name="imageurl" id="imageurl" placeholder="leave blank for default">
+        <br>
+    </form>
+    <script src="./options.js"></script>
+</body>
+
+</html>
